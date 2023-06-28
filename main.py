@@ -9,3 +9,5 @@ def start (update):
     caption=f"""Hi {update.message.sender.name} 
 How Are You..!!"""
   )
+
+bot.polling()
